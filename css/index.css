@@ -1,0 +1,43 @@
+@font-face{
+    font-family: '나눔스퀘어R';
+    src: url(../font/NanumSquareRegular.ttf);
+}
+
+@font-face{
+    font-family: '나눔스퀘어B';
+    src: url(../font/NanumSquareBold.ttf);
+}
+
+div, p {
+    font-family: 나눔스퀘어R;
+}
+
+h1, h2, h3, h4, h5,
+.bold {
+    font-family: 나눔스퀘어B;
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
+}
+
+code {
+    font-size: 1rem;
+}
+
+.container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.round-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  object-fit: cover;
+  cursor: pointer;
+  border-style: solid;
+}
