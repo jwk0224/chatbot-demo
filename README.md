@@ -1,6 +1,6 @@
 # chatbot-demo
 
-A demo for chatbot service
+A simple chatbot service running on Google Dialogflow
 
 ## Features
 
